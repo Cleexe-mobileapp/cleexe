@@ -1,5 +1,5 @@
-import React, { createContext, useContext, ReactNode } from 'react'
-import { User } from '@types/index'
+import React, { createContext, useContext, ReactNode, useState } from 'react'
+import { User } from '../types'
 
 /**
  * App Context Type
@@ -20,8 +20,8 @@ const AppContext = createContext<AppContextType | undefined>(undefined)
  * App Context Provider
  */
 export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
-  const [user, setUser] = React.useState<User | null>(null)
-  const [isLoading, setIsLoading] = React.useState(false)
+  const [user, setUser] = useState<User | null>(null)
+  const [isLoading, setIsLoading] = useState(false)
 
   const value: AppContextType = {
     user,
