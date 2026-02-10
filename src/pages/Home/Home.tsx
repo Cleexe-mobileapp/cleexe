@@ -20,53 +20,62 @@ const Home: React.FC = () => {
     <div className="home">
       <section className="hero">
         <div className="hero-content">
-          <h1 className="hero-title">Welcome to Near Era Cleexe</h1>
+          <h1 className="hero-title">Cleexe: Productivity Meets Community</h1>
           <p className="hero-description">
-            Experience the next generation of mobile innovation. Near Era Cleexe brings
-            cutting-edge technology and seamless user experiences to your fingertips.
+            Connect with like-minded professionals, share your goals, and build accountability together. The social platform designed for productive people who want to achieve more.
           </p>
           <div className="hero-actions">
             <Button variant="primary" size="lg" onClick={handleGetStarted}>
-              Get Started
+              Join Now
             </Button>
             <Button variant="secondary" size="lg" onClick={handleLearnMore}>
-              Learn More
+              Explore Features
             </Button>
           </div>
         </div>
       </section>
 
       <section id="features" className="features">
-        <h2 className="section-title">Features</h2>
+        <h2 className="section-title">Why Choose Cleexe?</h2>
         <div className="features-grid">
           <div className="feature-card">
-            <div className="feature-icon">🚀</div>
-            <h3>Innovation First</h3>
-            <p>Built with the latest technology and best practices for optimal performance.</p>
+            <div className="feature-icon">🎯</div>
+            <h3>Goal Tracking</h3>
+            <p>Set, track, and achieve your goals with built-in progress tracking and milestones.</p>
           </div>
           <div className="feature-card">
-            <div className="feature-icon">📱</div>
-            <h3>Mobile Native</h3>
-            <p>Designed specifically for mobile platforms with intuitive interfaces.</p>
+            <div className="feature-icon">👥</div>
+            <h3>Accountability Groups</h3>
+            <p>Join groups with similar goals and keep each other motivated through shared progress.</p>
           </div>
           <div className="feature-card">
-            <div className="feature-icon">🔒</div>
-            <h3>Secure</h3>
-            <p>Your data and privacy are our top priority with enterprise-grade security.</p>
+            <div className="feature-icon">🏆</div>
+            <h3>Achievements & Badges</h3>
+            <p>Earn recognition for your progress with a gamified achievement system.</p>
           </div>
           <div className="feature-card">
-            <div className="feature-icon">⚡</div>
-            <h3>Fast</h3>
-            <p>Lightning-quick performance and smooth animations for the best UX.</p>
+            <div className="feature-icon">💬</div>
+            <h3>Community Support</h3>
+            <p>Get encouragement and tips from a supportive community of productive professionals.</p>
+          </div>
+          <div className="feature-card">
+            <div className="feature-icon">📊</div>
+            <h3>Analytics & Insights</h3>
+            <p>Understand your productivity patterns with detailed analytics and data visualization.</p>
+          </div>
+          <div className="feature-card">
+            <div className="feature-icon">🔔</div>
+            <h3>Smart Notifications</h3>
+            <p>Get timely reminders and updates that help you stay on track without distractions.</p>
           </div>
         </div>
       </section>
 
       <section id="contact" className="contact">
-        <h2 className="section-title">Get in Touch</h2>
-        <p className="contact-text">Have questions? We'd love to hear from you.</p>
+        <h2 className="section-title">Ready to Boost Your Productivity?</h2>
+        <p className="contact-text">Join thousands of professionals achieving their goals together on Cleexe.</p>
         <Button variant="primary" size="lg">
-          Contact Us
+          Start Your Journey
         </Button>
       </section>
     </div>

@@ -1,7 +1,7 @@
 {
-  "name": "near-era-cleexe",
+  "name": "cleexe",
   "version": "1.0.0",
-  "description": "Near Era Cleexe - Next generation mobile app",
+  "description": "Cleexe - Social Media App for Productivity",
   "type": "module",
   "scripts": {
     "dev": "vite",
