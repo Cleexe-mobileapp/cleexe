@@ -1,0 +1,13 @@
+# Docker Ignore
+node_modules
+.git
+.gitignore
+README.md
+.env
+.env.local
+dist
+build
+.next
+.turbo
+coverage
+.cache
