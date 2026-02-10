@@ -1,0 +1,27 @@
+name: 'Cleexe'
+version: '1.0.0'
+identifier: 'com.cleexe.app'
+build:
+  beforeBuildCommand: npm run build
+  devUrl: http://localhost:3000
+  frontendDist: ../dist
+  features:
+    - os: [windows, linux]
+      args: []
+    - os: [macos]
+      args: []
+webviewConfig:
+  windowConfig:
+    label: Cleexe
+    title: Cleexe - Productivity Social Network
+    width: 1200
+    height: 800
+    minWidth: 600
+    minHeight: 400
+    resizable: true
+    alwaysOnTop: false
+    decorations: true
+    transparent: false
+    maximizable: true
+    minimizable: true
+    closable: true

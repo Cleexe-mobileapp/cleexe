@@ -1,0 +1,45 @@
+{
+  "productName": "Cleexe",
+  "appId": "com.cleexe.app",
+  "directories": {
+    "buildResources": "assets",
+    "output": "release"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "dmg": {
+    "contents": [
+      {
+        "x": 130,
+        "y": 220
+      },
+      {
+        "x": 410,
+        "y": 220,
+        "type": "link",
+        "path": "/Applications"
+      }
+    ]
+  },
+  "linux": {
+    "target": [
+      "AppImage",
+      "deb"
+    ],
+    "category": "Productivity"
+  },
+  "nsis": {
+    "oneClick": false,
+    "createDesktopShortcut": true,
+    "createStartMenuShortcut": true,
+    "shortcutName": "Cleexe"
+  },
+  "win": {
+    "certificateFile": null,
+    "certificatePassword": null,
+    "signingHashAlgorithms": [
+      "sha256"
+    ]
+  }
+}
