@@ -2,7 +2,7 @@
  * Custom hooks for the application
  */
 
-import { useState, useCallback } from 'react'
+import React, { useState, useCallback, useEffect } from 'react'
 
 /**
  * useLocalStorage hook
@@ -44,9 +44,9 @@ export const useAsync = <T,>(
   asyncFunction: () => Promise<T>,
   immediate = true,
 ) => {
-  const [status, setStatus] = useState<'idle' | 'pending' | 'success' | 'error'>('idle')
-  const [value, setValue] = useState<T | null>(null)
-  const [error, setError] = useState<Error | null>(null)
+  const [status, setStatus] = React.useState<'idle' | 'pending' | 'success' | 'error'>('idle')
+  const [value, setValue] = React.useState<T | null>(null)
+  const [error, setError] = React.useState<Error | null>(null)
 
   const execute = useCallback(async () => {
     setStatus('pending')

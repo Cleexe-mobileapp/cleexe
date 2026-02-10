@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { HeaderProps } from '@types/index'
+import { HeaderProps } from '../../types'
 import './Header.css'
 
 /**

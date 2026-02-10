@@ -1,5 +1,5 @@
 import apiClient from './api'
-import { User, ApiResponse } from '@types/index'
+import { User, ApiResponse } from '../types'
 
 /**
  * Login user
