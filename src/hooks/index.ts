@@ -2,7 +2,7 @@
  * Custom hooks for the application
  */
 
-import React, { useState, useCallback, useEffect } from 'react'
+import { useState, useCallback, useEffect } from 'react'
 
 /**
  * useLocalStorage hook
